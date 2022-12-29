@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:"monoton" ;
+    src: url(../fonts/Monoton/Monoton-Regular.ttf);
+}
+@font-face {
+    font-family:"ubuntu" ;
+    src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+.monotonFont{
+    font-family: "monoton";
+}
+.ubuntuFont{
+    font-family: "ubuntu";
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #9d9f9f;
+    background-color:#1d2024;
+
+        section{
+            display: flex;
+            margin: 0.5rem;
+            align-items: baseline;
+
+                p{
+                    margin-right: 1rem;
+                    color: #9d9f9f;
+                    font-size: 2rem;
+                }
+
+                    a{
+                        color: #9d9f9f;
+                        text-decoration: none;
+                    }
+        }
+
+            nav{
+                margin: 0.5rem;
+                margin-right: 10rem;
+                width: 40rem;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                
+                    a{
+                        color: #9d9f9f;
+                        text-decoration: none;
+                    }
+            }
+}
+
+main{
+    display: flex;
+    height: 80vh;
+    background-color:#1d2024;
+
+        .mainText{
+            width: 30vw;
+            padding-left: 18rem;
+            padding-top: 20rem;
+            background-color:#1d2024;
+
+                h1{
+                    color: #f4f7f8;
+                    font-size: 3.5rem;
+                    margin-bottom: 3rem;
+                }
+
+                    p{
+                        color:#AC8059;
+
+                            span{
+                                display: inline-block;
+                                height: 2px;
+                                width: 60px;
+                                margin-right: 1rem;
+                                background-color: #AC8059;
+                                transform: translateY(-5px);
+                            }
+                    }
+        }
+
+            .mainImage{
+                position: relative;
+                background-color:#1d2024;
+
+                    img{
+                        position: absolute;
+                        width: 300px;
+                        top: 200px;
+                    }
+
+                        img:nth-of-type(1){
+                            left: 100px;
+                        }
+
+                            img:nth-of-type(2){
+                                left: 430px;
+                            }
+
+                                img:nth-of-type(3){
+                                    left: 760px;
+                                }
+                }
+}
