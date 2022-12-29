@@ -41,6 +41,9 @@ header section a {
   color: #9d9f9f;
   text-decoration: none;
 }
+header section a:hover {
+  color: #f4f7f8;
+}
 header nav {
   margin: 0.5rem;
   margin-right: 10rem;
@@ -52,6 +55,10 @@ header nav {
 header nav a {
   color: #9d9f9f;
   text-decoration: none;
+  font-family: "ubuntu";
+}
+header nav a:hover {
+  color: #f4f7f8;
 }
 
 main {
@@ -69,6 +76,9 @@ main .mainText h1 {
   color: #f4f7f8;
   font-size: 3.5rem;
   margin-bottom: 3rem;
+}
+main .mainText a {
+  text-decoration: none;
 }
 main .mainText p {
   color: #AC8059;
@@ -114,6 +124,9 @@ footer .social i {
   color: #9d9f9f;
   margin-left: 4rem;
 }
+footer .social i:hover {
+  color: #f4f7f8;
+}
 footer .navArrows {
   display: flex;
   justify-content: space-between;
@@ -123,4 +136,7 @@ footer .navArrows {
 }
 footer .navArrows i {
   color: #AC8059;
+}
+footer .navArrows i:hover {
+  color: #f4f7f8;
 }/*# sourceMappingURL=style.css.map */
